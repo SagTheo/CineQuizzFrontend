@@ -30,7 +30,7 @@ const Quizz = () => {
     const pageIndex = randomIndex() + 1
 
 
-    fetch(`https://cinequizz.herokuapp.com/getQuestion/${itemIndex}/${pageIndex}`)
+    fetch(`/api/getQuestion/${itemIndex}/${pageIndex}`)
       .then(res => res.json())
       .then(data => {
         setActorName(data.response.actor)
