@@ -1,0 +1,47 @@
+@keyframes swipeLeft {
+    from {
+        text-align: center;
+    }
+    to {
+        margin-left: -150%;
+    }
+}
+
+@keyframes swipeRight {
+    from {
+        text-align: center;
+    }
+    to {
+        margin-left: 150%;
+    }
+}
+
+.swipeLeft {
+    animation: 0.2s ease-in 0s 1 swipeLeft;
+}
+
+.swipeRight {
+    animation: 0.2s ease-in 0s 1 swipeRight;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    color: #ffc426;
+}
+
+.header {
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.timer, .question {
+    font-size: x-large;
+}
+
+.question {
+    margin-bottom: 0;
+    color: black;
+}
