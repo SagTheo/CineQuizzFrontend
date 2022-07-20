@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/api/*"
-  to = "https://cinequizz.herokuapp.com/api/:splat"
+  from = "/getQuestion/*"
+  to = "https://cinequizz.herokuapp.com/getQuestion/:splat"
   status = 200
   force = true
 

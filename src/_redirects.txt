@@ -1,2 +1,0 @@
-/getQuestion/* https://cinequizz.herokuapp.com/getQuestion/:splat 200
-/* /index.html 200
