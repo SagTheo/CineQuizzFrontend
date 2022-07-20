@@ -30,7 +30,7 @@ const Quizz = () => {
     const pageIndex = randomIndex() + 1
 
 
-    fetch(`/api/getQuestion/${itemIndex}/${pageIndex}`)
+    fetch(`/getQuestion/${itemIndex}/${pageIndex}`)
       .then(res => res.json())
       .then(data => {
         setActorName(data.response.actor)

@@ -1,2 +1,2 @@
-/api/* https://cinequizz.herokuapp.com/api/:splat 200
+/getQuestion/* https://cinequizz.herokuapp.com/getQuestion/:splat 200
 /* /index.html 200
