@@ -33,7 +33,7 @@ const Quizz = () => {
     fetch(`/api/getQuestion/${itemIndex}/${pageIndex}`)
       .then(res => res.json())
       .then(data => {
-        console.log(data.response.index, data.response.page, data.response.movieIndex)
+        console.log(data.response)
         // setActorName(data.response.actor)
         // setActorPicture(data.response.actorPic)
         // setMovieName(data.response.movie)
