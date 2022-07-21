@@ -30,10 +30,9 @@ const Quizz = () => {
     const pageIndex = randomIndex() + 1
 
 
-    fetch(`/getQuestion/${itemIndex}/${pageIndex}`)
+    fetch(`/api/getQuestion/${itemIndex}/${pageIndex}`)
       .then(res => res.json())
       .then(data => {
-        console.log(data)
         setActorName(data.response.actor)
         setActorPicture(data.response.actorPic)
         setMovieName(data.response.movie)
